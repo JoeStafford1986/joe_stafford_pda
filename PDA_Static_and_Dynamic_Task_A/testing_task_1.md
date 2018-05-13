@@ -27,9 +27,9 @@ class CardGame
   # 6: missing ',' separating parameters
   dif highest_card(card1 card2)
   # 7: incorrect indentation
-  # 8: will return wrong card due to wrong operator
+  # 8: will return wrong card due to wrong operator if cards are equal
   if card1.value > card2.value
-    # 9: incorrect naming of parameter
+    # 9: incorrect naming of parameter, should be string interpolation to get both variables back
     return card.name
     # 10: missing occurrence of the same card.value being returned
   else
